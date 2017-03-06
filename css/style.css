@@ -1,0 +1,158 @@
+
+body{
+     height: 100%;
+     perspective: 1000px ;
+ 
+    background: linear-gradient(  #00111e 5%, #033d5e);
+   -webkit-background: linear-gradient(  #00111e 5%, #033d5e);
+    -moz-background: linear-gradient(  #00111e 5%, #033d5e);
+    -o-background: linear-gradient(  #00111e 5%, #033d5e);
+     margin: 0;
+     padding: 0;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     overflow: hidden;
+
+
+}
+
+html {
+    
+    overflow: auto;
+}
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+ 
+
+.fa-male {
+
+    position: relative;
+    font-size:100px; 
+    left:   0px;
+    color: coral;
+  -o-transform: rotateY(70deg);
+  -moz-transform: rotateY(70deg);
+  -webkit-transform: rotateY(70deg);
+   transform: rotateY(70deg);
+    bottom: 95px;
+   
+   
+}
+.fa-female {
+    position: relative;
+    bottom: 95px;
+    font-size:100px;
+  
+    left : 66%;
+    color: crimson;
+    transform: rotateY(-70deg);
+    -webkit-transform: rotateY(-70deg);
+    -moz-transform: rotateY(-70deg);
+  -o-transform: rotateY(-70deg);
+}
+
+
+
+
+
+
+
+  .swipe {
+      
+      animation-direction: alternate;
+     -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -o-animation-direction: alternate;
+      border-radius: 200px;
+    -webkit-border-radius: 200px;
+     -o-border-radius: 200px;
+     -moz-border-radius: 200px;
+      animation-duration: 1s;  
+    -webkit-animation-duration: 1s;  
+    -moz-animation-duration: 1s;  
+    -o-animation-duration: 1s;  
+      animation-name: plank;
+     -webkit-animation-name: plank;
+    -moz-animation-name: plank;
+    -o-animation-name: plank;
+      animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    
+    position: relative;
+         background-color: black;     
+    width: 25%; 
+    height: 50px; 
+      bottom: 200px;
+    margin:   auto;
+    
+}
+  
+@keyframes plank {
+     
+     
+     
+     
+    0%{
+     
+           transform: rotateZ(15deg);
+       -webkit-transform: rotateZ(15deg);
+             -moz-transform: rotateZ(15deg);
+             -o-transform: rotateZ(15deg);
+            perspective-origin: center ;
+        -webkit-perspective-origin: center ;
+          -moz-perspective-origin: center ;
+        -o-perspective-origin: center ;
+          
+
+            
+    }
+    
+    100% {
+        
+     
+
+     transform: rotateZ(-15deg);
+      -webkit-transform: rotateZ(-15eg);
+      -moz-transform: rotateZ(-15deg);
+      -o-transform: rotateZ(-15deg);
+      
+    perspective-origin: center ;
+    -webkit-perspective-origin: center ;
+      -moz-perspective-origin: center ;
+      -o-perspective-origin: center ;
+
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
